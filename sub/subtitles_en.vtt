@@ -1,0 +1,26 @@
+WEBVTT FILE
+
+1
+00:00:05.000 --> 00:00:15.000 D:vertical A:start
+This is the first line of text, displaying from 5-15 seconds
+
+2
+00:00:20.000 --> 00:00:25.000
+And the second line...
+
+3
+00:00:30.000 --> 00:00:35.000
+This line text displaing during 5 seconds
+
+4
+00:00:40.000 --> 00:00:50.000
+This is simple movie from site <url>http://docs.sublimevideo.net/</url>
+
+5
+00:00:50.000 --> 00:01:05.000
+This is our nature.
+
+6
+00:01:15.000 --> 00:01:25.000
+The end
+

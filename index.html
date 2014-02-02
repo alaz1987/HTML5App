@@ -6,12 +6,13 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>My First HTML5 Application</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+		
+		<link href='http://fonts.googleapis.com/css?family=Exo+2:400,200,100' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -21,17 +22,25 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Add your site or application content here -->
-        <p>Hello, Friend! This is the first HTML 5 application</p>
+
+        <h1 class="center">Hello, Friend! This is the first HTML 5 application</h1>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+		
+		<section class="center">
+			<h2>My video content</h2>
+			<video poster="http://media.sublimevideo.net/vpa/ms_800.jpg" width="432" height="243" data-settings="initial-overlay-enable:false" controls>
+			  <source src="http://media.sublimevideo.net/vpa/ms_360p.webm" type="video/webm">  
+			  <source src="http://media.sublimevideo.net/vpa/ms_360p.mp4" type="video/mp4">
+			  <track src="sub/subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+			  Your browser does not support the video tag.
+			</video>
+		</section>
 
-		<div>
-			<embed src="http://youtu.be/p3ZOvsC-BLI">
-		</div>
+		<footer class="center">Web Engineering II: Developing Mobile HTML5 Apps</footer>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

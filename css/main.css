@@ -10,6 +10,19 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+.center {
+	text-align: center;
+}
+
+footer {
+	padding: 20px;
+	margin: 40px 20px;;
+	background-color: #fff;
+	opacity: 0.5;
+	color: #000;
+	border-radius: 10px;
+}
+
 html,
 button,
 input,
@@ -21,6 +34,9 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #333330;
+    color: #ffffff;
 }
 
 /*
